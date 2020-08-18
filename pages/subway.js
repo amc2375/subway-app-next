@@ -5,11 +5,6 @@ const Title = styled.h1`
   color: ${({ theme }) => theme.colors.primary};
 `
 
-export default function Home() {
-  return (
-    <>
-      <Title>Hello</Title>
-      <a href="/subway">Subway</a>
-    </>
-  );
+export default function subway() {
+  return <Title>Hello Subway</Title>
 }
